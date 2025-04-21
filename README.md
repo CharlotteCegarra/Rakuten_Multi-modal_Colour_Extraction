@@ -2,11 +2,17 @@
 
 ## Description
 
-Ce projet est basé sur le challenge organisé par le Rakuten Institute of Technology (RIT), qui porte sur l'extraction automatique des couleurs des produits à partir de données multimodales, incluant des images et des textes provenant du catalogue de produits de la marketplace Rakuten Ichiba. L’objectif est d’améliorer la classification des attributs de couleur des produits, une tâche essentielle pour la recherche et la recommandation de produits sur la plateforme.
+Ce projet est basé sur le challenge organisé par le **Rakuten Institute of Technology (RIT)**, visant à prédire les **codes de type de produit** à partir de données **multimodales** (images et textes) du catalogue de **Rakuten Ichiba**. L’objectif est de prédire le **code de type de produit** pour chaque article, en utilisant une approche combinée des informations des **images**, **titres** et **descriptions**.
 
-Les données sont particulièrement difficiles à traiter en raison de plusieurs facteurs, notamment des descriptions mal rédigées, des données manquantes ou bruitées, et un déséquilibre des classes, où certaines couleurs apparaissent plus fréquemment que d'autres. Le challenge implique environ 250 000 produits, avec des informations provenant d'images et de textes.
+Les données sont particulièrement difficiles à traiter en raison de plusieurs facteurs :
 
-L'objectif principal du projet est de prédire les couleurs associées aux produits en utilisant une approche multimodale, combinant les informations des images, des titres et des descriptions. Étant un problème de classification multi-label, un produit peut être associé à plusieurs couleurs (par exemple, un sac rouge et noir).
+- Des descriptions mal rédigées et des données manquantes ou bruitées.
+- Un **déséquilibre des classes**, où certaines catégories de produits sont plus fréquentes que d'autres.
+
+La tâche implique la gestion de **250 000 produits**, avec des données potentiellement bruitées et un déséquilibre des classes. Le défi réside dans l'utilisation de modèles de **classification multi-classe**, où chaque produit est associé à un **code de type unique**.
+
+L'approche multimodale combine des techniques de **computer vision** et de **traitement du langage naturel (NLP)** pour améliorer la précision de la classification, en traitant des **images** et des **descriptions** de produits dans un environnement à grande échelle.
+
 
 ## Prérequis
 
