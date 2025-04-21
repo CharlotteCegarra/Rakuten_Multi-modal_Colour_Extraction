@@ -6,7 +6,7 @@ Ce projet est basé sur le challenge organisé par le **Rakuten Institute of Tec
 
 Les données sont particulièrement difficiles à traiter en raison de plusieurs facteurs :
 
-- Des descriptions mal rédigées et des données manquantes ou bruitées.
+- Des descriptions mal rédigées et des **données manquantes** ou **bruitées**.
 - Un **déséquilibre des classes**, où certaines catégories de produits sont plus fréquentes que d'autres.
 
 La tâche implique la gestion de **250 000 produits**, avec des données potentiellement bruitées et un déséquilibre des classes. Le défi réside dans l'utilisation de modèles de **classification multi-classe**, où chaque produit est associé à un **code de type unique**.
