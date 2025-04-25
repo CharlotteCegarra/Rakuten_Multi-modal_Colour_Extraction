@@ -41,8 +41,10 @@ Pour utiliser ce projet, vous devez d'abord créer un environnement virtuel et i
     ├── Modèle (image)  # Scripts liés aux modèles utilisant uniquement des images
     ├── Modèle (texte + image)  # Scripts pour les modèles texte + image
     ├── Modèle (texte)  # Scripts pour les modèles utilisant uniquement du texte
-    └── Preprocessing    # Scripts de prétraitement des données
-/EDA.ipynb         # Notebook principal pour l'analyse exploratoire des données (EDA)
+    ├── Preprocessing    # Scripts de prétraitement des données
+    └── EDA.ipynb         # Notebook principal pour l'analyse exploratoire des données (EDA)
+Presentation.pdf
+Rapport.pdf
 README.md          # Documentation du projet
 Requirements.txt   # Liste des dépendances Python nécessaires pour exécuter le projet
 ```
